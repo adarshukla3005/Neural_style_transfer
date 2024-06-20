@@ -20,11 +20,21 @@
 ![g3](https://github.com/adarshukla3005/neural_style_transfer/blob/main/Images/stylizedimg_5.png?raw=true)
 
 ## Usage
-
 Run each cell in the collab file. Upload the required content and style image file.
 You can download the files from the repository.
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adarshukla3005/neural_style_transfer/blob/main/Neural_Style_Transfer.ipynb)
 
+1. **Upload Images:**
+   The script prompts you to upload a content image and a style image.
+
+2. **Run Style Transfer:**
+   To run the style transfer, simply call the `run_style_transfer` function with the appropriate parameters:
+    ```python
+    best, best_loss, image = run_style_transfer(content_path, style_path, epochs=200)
+    ```
+
+3. **Display Results:**
+   The script includes functionality to display the content, style, and generated images using Matplotlib.
 
 ## Style transfer
 
