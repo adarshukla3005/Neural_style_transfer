@@ -11,8 +11,6 @@ Transfer a content image into the style of a style image.
 
 - Visualize the feature maps to choose content and style layers.
 
-- Adam optimizer is used for training.
-
 ## Preview
 
 ![g2](https://github.com/adarshukla3005/neural_style_transfer/blob/main/Images/stylizedimg_4.jpg?raw=true)
@@ -33,15 +31,3 @@ Used pretrained VGG19 model.
 ### Transfer results
 
 ![ car](https://github.com/adarshukla3005/neural_style_transfer/blob/main/Images/stylo.png?raw=true)
-
-### One to many
-
-![one_to_many](https://user-images.githubusercontent.com/62132206/120101446-6a496b00-c146-11eb-8299-a2b190437476.png)
-
-### Many to one
-
-![many_to_one](https://user-images.githubusercontent.com/62132206/120102504-a9c68600-c14b-11eb-90b4-a94c014dae01.png)
-
-### Weight analysis
-
-![weight](https://user-images.githubusercontent.com/62132206/120114778-02644600-c181-11eb-8716-e6fea9a1fb29.png)
