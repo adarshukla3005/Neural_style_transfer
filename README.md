@@ -1,15 +1,14 @@
-## Neural Style Transfer
+# Neural Style Transfer
 
-- This repository contains an implementation of Neural Style Transfer using TensorFlow and Keras. Neural Style Transfer is a technique that blends the content of one image with the style of another image to create a new, visually   
-  appealing image.
-  
-- Transfer a content image into the style of a style image.
+This repository contains an implementation of Neural Style Transfer using TensorFlow and Keras. Neural Style Transfer is a technique that blends the content of one image with the style of another image to create a new, visually appealing image.
 
-- A pre-trained VGG19 model is employed as feature extactor of content and style of an image.
+Transfer a content image into the style of a style image.
 
-- A weighted loss function of content loss, style loss, and total variation loss is used as the optimization objective.
+A pre-trained VGG19 model is employed as a feature extractor of content and style of an image.
 
-- Visualize the feature maps to choose content and style layers.
+A weighted loss function of content loss, style loss, and total variation loss is used as the optimization objective.
+
+Visualize the feature maps to choose content and style layers.
 
 ## Preview
 
@@ -73,13 +72,16 @@ The model uses the VGG19 network pretrained on ImageNet. Only the convolutional 
 - [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576) by Leon A. Gatys, Alexander S. Ecker, Matthias Bethge
 - [TensorFlow Neural Style Transfer Tutorial](https://www.tensorflow.org/tutorials/generative/style_transfer)
 
-
-## Style transfer
+## Style Transfer
 
 Used pretrained VGG19 model.
 
-### Transfer results
+### Transfer Results
 
-![ car](https://github.com/adarshukla3005/neural_style_transfer/blob/main/Images/stylo.png?raw=true)
+![car](https://github.com/adarshukla3005/neural_style_transfer/blob/main/Images/stylo.png?raw=true)
 
-![ car](https://github.com/adarshukla3005/neural_style_transfer/blob/main/Images/stylo2.png?raw=true)
+![car](https://github.com/adarshukla3005/neural_style_transfer/blob/main/Images/stylo2.png?raw=true)
+
+## Demo Video
+
+[![DEMO video](http://img.youtube.com/vi/YOUR_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUR_VIDEO_ID_HERE)
