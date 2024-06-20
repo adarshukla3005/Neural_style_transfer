@@ -36,6 +36,44 @@ You can download the files from the repository.
 3. **Display Results:**
    The script includes functionality to display the content, style, and generated images using Matplotlib.
 
+## Model Architecture
+
+The model uses the VGG19 network pretrained on ImageNet. Only the convolutional layers are used, and the fully connected layers are excluded.
+
+- **Content Layer:** `block5_conv2`
+- **Style Layers:** `block1_conv1`, `block2_conv1`, `block3_conv1`, `block4_conv1`, `block5_conv1`
+
+## Loss Functions
+
+- **Content Loss:** Measures the difference in content between the generated image and the content image.
+    ```python
+    def get_content_loss(noise, target):
+        loss = tf.reduce_mean(tf.square(noise - target))
+        return loss
+    ```
+
+- **Style Loss:** Measures the difference in style using Gram matrices.
+    ```python
+    def get_style_loss(noise, target):
+        gram_noise = gram_matrix(noise)
+        loss = tf.reduce_mean(tf.square(target - gram_noise))
+        return loss
+    ```
+
+- **Total Loss:** Weighted sum of content loss and style loss.
+    ```python
+    def compute_loss(model, loss_weights, image, gram_style_features, content_features):
+        ...
+        total_loss = content_loss * content_weight + style_loss * style_weight
+        return total_loss, style_loss, content_loss
+    ```
+
+## References
+
+- [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576) by Leon A. Gatys, Alexander S. Ecker, Matthias Bethge
+- [TensorFlow Neural Style Transfer Tutorial](https://www.tensorflow.org/tutorials/generative/style_transfer)
+
+
 ## Style transfer
 
 Used pretrained VGG19 model.
