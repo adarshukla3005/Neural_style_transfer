@@ -33,3 +33,5 @@ Used pretrained VGG19 model.
 ### Transfer results
 
 ![ car](https://github.com/adarshukla3005/neural_style_transfer/blob/main/Images/stylo.png?raw=true)
+
+![ car](https://github.com/adarshukla3005/neural_style_transfer/blob/main/Images/stylo2.png?raw=true)
