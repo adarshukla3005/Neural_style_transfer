@@ -1,9 +1,9 @@
-[![GitHub issues](https://img.shields.io/github/issues/jhan15/neural_style_transfer)](https://github.com/jhan15/neural_style_transfer/issues)
-![GitHub last commit](https://img.shields.io/github/last-commit/jhan15/neural_style_transfer?color=ff69b4)
+Neural Style Transfer
 
-# neural_style_transfer
-
-Transfer a content image into the style of a style image.
+- This repository contains an implementation of Neural Style Transfer using TensorFlow and Keras. Neural Style Transfer is a technique that blends the content of one image with the style of another image to create a new, visually   
+  appealing image.
+  
+- Transfer a content image into the style of a style image.
 
 - A pre-trained VGG19 model is employed as feature extactor of content and style of an image.
 
