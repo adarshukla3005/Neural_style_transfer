@@ -21,7 +21,9 @@ Transfer a content image into the style of a style image.
 
 ## Usage
 
-Run each cell in the collab file. Upload the required content and style image file. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adarshukla3005/neural_style_transfer/blob/main/Neural_Style_Transfer.ipynb)
+Run each cell in the collab file. Upload the required content and style image file.
+You can download the files from the repository.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adarshukla3005/neural_style_transfer/blob/main/Neural_Style_Transfer.ipynb)
 
 
 ## Style transfer
