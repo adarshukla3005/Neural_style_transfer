@@ -23,25 +23,11 @@ Transfer a content image into the style of a style image.
 
 ## Usage
 
-Try the code in google colab if you are interested in. However, you need to prepare some images youselves. I did it by copying the images stored in my google drive. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jhan15/neural_style_transfer/blob/master/neural_style_transfer.ipynb)
+Run each cell in the collab file. Upload the required content and style image file. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/github/jhan15/neural_style_transfer/blob/master/neural_style_transfer.ipynb](https://colab.research.google.com/drive/1dtzkX4gd-WOUPV5bffEE_nTlpYS66Q2N?usp=sharing))
 
 ## Style transfer
 
-### Visualize feature maps
-
-Only the first 10 feature maps of each conv layer are displayed.
-
-#### Content feature maps
-
-![car1](https://user-images.githubusercontent.com/62132206/120101413-471ebb80-c146-11eb-8730-213aa1e9a168.png)
-
-#### Style feature maps
-
-![car2](https://user-images.githubusercontent.com/62132206/120101417-4d149c80-c146-11eb-8cf3-a3fd3bfb852c.png)
-![car3](https://user-images.githubusercontent.com/62132206/120101420-4dad3300-c146-11eb-96fd-45c17436f379.png)
-![car4](https://user-images.githubusercontent.com/62132206/120101421-4e45c980-c146-11eb-836b-91ca4dbaa937.png)
-![car5](https://user-images.githubusercontent.com/62132206/120101422-4ede6000-c146-11eb-969c-6a9edfcf1613.png)
-![car6](https://user-images.githubusercontent.com/62132206/120101423-4ede6000-c146-11eb-8bc3-6b16a64e672c.png)
+Used pretrained VGG19 model.
 
 ### Transfer results
 
