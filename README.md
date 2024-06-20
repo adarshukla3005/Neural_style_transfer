@@ -17,7 +17,7 @@ Transfer a content image into the style of a style image.
 
 ![g2](https://github.com/adarshukla3005/neural_style_transfer/blob/main/content_4.jpg)
 
-![g1](https://user-images.githubusercontent.com/62132206/120387259-f071d700-c329-11eb-9b78-f63f6c7f6088.gif)
+![g1](https://github.com/adarshukla3005/neural_style_transfer/blob/main/Images/stylizedimg_1.png?raw=true)
 
 ![g3](https://user-images.githubusercontent.com/62132206/120387238-ebad2300-c329-11eb-80b2-74bb83dee39e.gif)
 
