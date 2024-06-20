@@ -1,4 +1,4 @@
-Neural Style Transfer
+##Neural Style Transfer
 
 - This repository contains an implementation of Neural Style Transfer using TensorFlow and Keras. Neural Style Transfer is a technique that blends the content of one image with the style of another image to create a new, visually   
   appealing image.
