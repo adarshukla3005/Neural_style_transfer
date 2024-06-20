@@ -1,3 +1,7 @@
+## Demo Video
+
+[![DEMO video](https://www.youtube.com/watch?v=7sgF6nAb32E)
+
 # Neural Style Transfer
 
 This repository contains an implementation of Neural Style Transfer using TensorFlow and Keras. Neural Style Transfer is a technique that blends the content of one image with the style of another image to create a new, visually appealing image.
@@ -81,7 +85,3 @@ Used pretrained VGG19 model.
 ![car](https://github.com/adarshukla3005/neural_style_transfer/blob/main/Images/stylo.png?raw=true)
 
 ![car](https://github.com/adarshukla3005/neural_style_transfer/blob/main/Images/stylo2.png?raw=true)
-
-## Demo Video
-
-[![DEMO video](http://img.youtube.com/vi/YOUR_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUR_VIDEO_ID_HERE)
