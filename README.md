@@ -15,7 +15,7 @@ Transfer a content image into the style of a style image.
 
 ## Preview
 
-![g2](https://drive.google.com/file/d/1cdY8FhNFa1HrKqVlRUx2N78L6kFMJhSY/view?usp=sharing)
+![g2](https://github.com/adarshukla3005/neural_style_transfer/blob/main/content_4.jpg)
 
 ![g1](https://user-images.githubusercontent.com/62132206/120387259-f071d700-c329-11eb-9b78-f63f6c7f6088.gif)
 
