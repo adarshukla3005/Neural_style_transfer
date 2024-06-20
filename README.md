@@ -32,7 +32,7 @@ Used pretrained VGG19 model.
 
 ### Transfer results
 
-![ car](https://user-images.githubusercontent.com/62132206/120101427-543baa80-c146-11eb-9e55-a0d306473799.png)
+![ car](https://github.com/adarshukla3005/neural_style_transfer/blob/main/Images/stylo.png?raw=true)
 
 ### One to many
 
